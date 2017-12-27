@@ -1,0 +1,94 @@
+<!-- //***Testimonial Start***// -->
+<section class="bg padT100" id="register">
+  <!-- //***Theme-heading Start***// -->
+  <div class="theme-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-12 offset-xs-0">
+          <div class="theme-bdr">
+            <h5>register</h5>
+            <h3>
+              <span>สมัครสมาชิก</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //***Theme-heading End***// -->
+  <div class="testimonial-section">
+    <div class="container">
+      <div class="row">        
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="testimonial-img marB30">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="testimonial">
+                  <a [href]= "line.link" target="_bank">
+                <figure>                  
+                  <img src="assets/img/contact/ic_line.png" alt="">               
+                </figure>
+              </a>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-12">
+              <div>
+                <h4>สมัครสมาชิกผ่านทาง</h4>
+                <h5 class="marB10">LINE ID: <a [href]= "line.link" target="_bank">{{ line.id }}</a></h5>
+                <p>
+                  บริการ 24 ชม. แอดไลน์กดที่รูปภาพด้านบน
+                </p>
+                <ol>
+                  <li *ngFor="let register of register_in_line">
+                    <p>
+                        {{ register.how_to }}
+                    </p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="testimonial-img marB30">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="testimonial">
+                  <figure>
+                    <img src="assets/img/payment_method/กสิกร.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="assets/img/payment_method/ไทยพาณิชย์.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="assets/img/payment_method/กรุงเทพ.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="assets/img/payment_method/กรุงไทย.png" alt="">
+                  </figure>
+                  <figure>
+                    <img src="assets/img/payment_method/true_wallet.png" alt="">
+                  </figure>
+                </div>
+              </div>
+              
+              <div class="col-md-9 col-sm-9 col-xs-12">
+                <div>
+                  <h4>ฝาก-ถอน</h4>
+                  <h5 class="marB10">Top up & Withdraw</h5>
+                  <p>
+                    แจ้งฝากธนาคาร 5 ชั้นนำ หรือทรูวอลเล็ท (true wallet)
+                  </p>
+                  <p>
+                      <i class="fa fa-angle-double-right" aria-hidden="true"></i> แอดไลน์เพื่อขอรับเลขที่บัญชีในการเติมเงิน
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //***Testimonial End***// -->

@@ -1,0 +1,48 @@
+<!-- //***Night-Video Start***// -->
+<section class="bg night-videos padT100" style="background: url('assets/img/background/background3.jpg');">
+  <!-- //***Theme-heading Start***// -->
+  <div class="theme-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 mx-md-auto col-lg-8 mx-sm-auto col-12 mx-auto">
+          <div class="theme-bdr">
+            <h5>our popular casino games</h5>
+            <h3>
+              <span>เกมคาสิโนยอดนิยม</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //***Theme-heading End***// -->
+  <div class="night-video padB100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12 marB30">
+          <div class="video-player" id="mainVideoPlayer">          
+
+            <iframe width="1140" height="560" [src]="url" frameborder="0" gesture="media" allow="encrypted-media"
+              allowfullscreen></iframe>           
+              
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-6 xs-pad" *ngFor="let game Of games">
+          <div class="video">
+            <figure>
+              <img src="assets/img/all/video3.jpg" alt="">
+              <figcaption>
+                <a (click)="onSelect(game)" >
+                  <i class="fa fa-play" aria-hidden="true"></i>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- //***Night-Video End***// -->

@@ -1,0 +1,12 @@
+.navbar-brand {
+  background-size: contain;
+  max-height: 70px;
+}
+
+.bg-company-color {
+    background: linear-gradient(to bottom, #0066ff 0%, #ff00c6 100%)
+}
+
+.main-header {
+    background-color: #ff00c6;
+}

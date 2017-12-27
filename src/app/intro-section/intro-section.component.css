@@ -1,0 +1,11 @@
+.box {
+    margin-top : 2rem; 
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+
+.box img {
+    max-height: 93px;
+    max-width: 100%;
+}

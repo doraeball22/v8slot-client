@@ -1,0 +1,81 @@
+.service-list.active,
+.service:hover,
+.events-detail:hover figcaption.event-date,
+.service-box:hover,
+.club-description,
+.our-dj-section:after,
+.footer-icn,
+.newsletter:after,
+.slider:before,
+.gallery figure.gallery-img:after,
+.slider-hover,
+.collection-img figure:after,
+.blogs figure:after,
+figure.image-hover:before,
+.pagination-box span:hover,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover,
+.coming-soon,
+.blog-text p i:hover,
+.tags ul li a:hover,
+.djmusic.active .audiojs,
+.djmusic .audiojs,
+.video:hover figure:after,
+.video.active figure:after,
+#team.owl-theme .owl-nav [class*=owl-]:hover,
+#blog.owl-theme .owl-nav [class*=owl-]:hover,
+#preloader .decor::after,
+#preloader .decor::before,
+#preloader .decor .bar,
+.ui-widget .ui-state-active,
+.ui-widget .ui-button.ui-state-disabled:hover,
+.dropdown-menu > li > a:hover,
+.btn-bg,
+.blog-text p span i,
+.audiojs .progress {
+    background: #ff00c6;
+    background: -webkit-linear-gradient(#ff00c6, #0066ff);
+    background: -o-linear-gradient(#ff00c6, #0066ff);
+    background: -moz-linear-gradient(#ff00c6, #0066ff);
+    background: linear-gradient(#ff00c6, #0066ff);
+}
+
+.testimonial img {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff00c6), to(#0066ff));
+    background-image: -webkit-linear-gradient(#ff00c6, #0066ff);
+    background-image: -moz-linear-gradient(#ff00c6, #0066ff);
+    background-image: -o-linear-gradient(#ff00c6, #0066ff);
+}
+.itg-btn.service-btn,
+.itg-btn.event-btn,
+.itg-btn.sidebar-btn:after,
+.testimonial img,
+a.itg-btn,
+.author,
+.footer-text:hover,
+.twitter-icon:hover.twitter-icon a,
+.testimonial img,
+.contact-btn,
+.collection-bdr,
+.itg-btn.sidebar-btn,
+.testimonial img,
+.btn:after,
+.serach-popup-box #search .btn,
+.footer-text:hover:after,
+.twitter-icon:hover.twitter-icon a {
+	-moz-border-image: -moz-linear-gradient(top, #ff00c6 0%, #0066ff 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #ff00c6 0%, #0066ff 100%);
+    border-image: linear-gradient(to bottom, #ff00c6 0%, #0066ff 100%);
+    border-image-slice: 1;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    border-color: #ff00c6;
+}
+#preloader p,
+.copyright-icon a i:hover {
+    color: #ff00c6;
+}

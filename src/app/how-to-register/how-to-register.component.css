@@ -1,0 +1,10 @@
+.testimonial {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial figure{
+    padding-right : 5px; 
+}
