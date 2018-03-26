@@ -1,4 +1,4 @@
-import { Installation } from './Installation';
+import { Installation } from './installation';
 
 export const INSTALLATIONS:  Installation[] = [
     {
