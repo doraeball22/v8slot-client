@@ -2,3 +2,12 @@
     display: flex;
     justify-content: center;
 }
+
+.item img{
+    border: 4px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #ff00c6 0%, #0066ff 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #ff00c6 0%, #0066ff 100%);
+    border-image: linear-gradient(to bottom, #ff00c6 0%, #0066ff 100%);
+    border-image-slice: 1; 
+} 
+
