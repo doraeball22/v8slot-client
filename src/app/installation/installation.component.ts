@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 import { BehaviorSubject } from  'rxjs/BehaviorSubject';
 
-import { Installation } from './shared/Installation';
+import { Installation } from './shared/installation';
 import { INSTALLATIONS } from './shared/mock-installations';
 
 
